@@ -70,7 +70,6 @@ img {
     --basement-color:rgba(255, 255, 255, 0.6);
 }
 /*-------------------basis----------------------------- */
-
 .basis-logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -428,7 +427,7 @@ img {
     justify-content: center;
     fill: #EEEEEE;
 
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-soc-list {
@@ -450,6 +449,7 @@ img {
 .soc-link:hover,
 .soc-link:focus {
     background-color: var(--accent-color);
+    fill: #EEEEEE;
 }
 
 /* ------------------regular-customers -------------------*/
@@ -631,7 +631,6 @@ img {
 .basement-soc-icon {
     fill: #FFFFFF;
 
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .basement-soc {
